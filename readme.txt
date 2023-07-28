@@ -16,5 +16,9 @@ will show all the installed packages
 fatihpython
 
 6- pip freeze > requirements.txt
-
+if we need to install it 
+pip install -r requirements.txt
 7-pip install flask
+
+
+8- 
