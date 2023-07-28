@@ -20,5 +20,5 @@ if we need to install it
 pip install -r requirements.txt
 7-pip install flask
 
-
-8- 
+8- for kubernetes environment start :
+minikube start
