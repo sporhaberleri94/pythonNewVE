@@ -22,3 +22,12 @@ pip install -r requirements.txt
 
 8- for kubernetes environment start :
 minikube start
+
+
+minikube docker-env
+set DOCKER_TLS_VERIFY=1
+set DOCKER_HOST="http://docker:2375/v1.24/containers/json"
+
+
+
+9-create a dockerfile
