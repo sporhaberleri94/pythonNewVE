@@ -31,3 +31,17 @@ set DOCKER_HOST="http://docker:2375/v1.24/containers/json"
 
 
 9-create a dockerfile
+docker build -t fatihpython .
+if necessary we can also delete the docker image    
+
+create a container :
+docker run -d -p 5000:5000 fatihpython
+
+10--kubernetes commands 
+minikube start
+minikube status
+kubectl config view
+kubectl get nodes
+minikube dashboard
+minikube dashboard --url
+
